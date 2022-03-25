@@ -7,8 +7,8 @@
   <a href="LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
   </a>
-  <a href="https://twitter.com/fidelissauro">
-    <img alt="Twitter: fidelissauro" src="https://img.shields.io/twitter/follow/fidelissauro.svg?style=social" target="_blank" />
+  <a href="https://twitter.com/jwcastillo">
+    <img alt="Twitter: jwcastillo" src="https://img.shields.io/twitter/follow/jwcastillo.svg?style=social" target="_blank" />
   </a>
 </p>
 
@@ -37,15 +37,20 @@ Edit `influxdb/influx.conf`
 ```sh
 docker-compose build
 ```
-
 ## Usage
 
+### Run Grafana & Influxdb
 ```sh
-docker-compose up --force-recreate
+docker-compose up grafana influxdb -d
 ```
 
-## Run tests
+### Run tests
+```sh
+docker-compose up jmeter
+```
 
+
+### Monitoring
 Access Grafana Dashboards on
 
 ```sh
@@ -53,6 +58,13 @@ htt://localhost:3000
 ```
 
 ## Author
+
+👤 **Wenceslao Castillo**
+
+* Twitter: [@jwcastillo](https://twitter.com/jwcastillo)
+* Github: [@jwcastillo](https://github.com/jwcastillo)
+
+### Work based on:
 
 👤 **Matheus Fidelis**
 
